@@ -1,0 +1,8 @@
+dgl==2.2.1+cu121
+dgl_cu110==0.6.1
+numpy==1.21.4
+torch==1.12.1
+tqdm==4.62.3
+torch==2.3.0+cu121
+nvidia-cuda-nvcc-cu12==12.1.66
+nvidia-cuda-runtime-cu12==12.1.55

@@ -1,0 +1,13 @@
+root/
+├── data/                  # Directory for datasets (Pokec-z, Pokec-n, DBLP)
+├── models/                # Victim(surrogate) models
+│   ├── victimModels.py    # GCN, GraphSAGE, APPNP, SGC implementations
+│   └──  bayesianModel.py   # Bayesian GNN for uncertainty estimation
+├── attack/
+│   └── nifa.py             # Main NIFA attack implementation
+├── utils/
+│   ├── metrics.py          # Fairness metrics
+│   └── dataLoader.py       # Data loader and processor
+├── main.py                 # Main entry
+├── test.py                 # Playground
+└── requirements.txt        # Required Python packages
